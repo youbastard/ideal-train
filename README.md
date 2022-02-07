@@ -4,7 +4,7 @@
 
 - Clone the repository from Github
 
-  `git clone git@github.com:youbastard/ideal-train.git appchallenge && cd appchallenge`
+  `git clone https://github.com/youbastard/ideal-train.git appchallenge && cd appchallenge`
 
 - Install the NPM dependencies
 
@@ -22,6 +22,9 @@
 
   `npm run dev`
 
+- Open the page in your browser
+
+  `http://localhost:3000`
 
 ### Directions
 
