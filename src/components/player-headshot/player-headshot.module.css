@@ -1,0 +1,15 @@
+.ph {
+  @apply inline-block rounded-lg ring-2 ring-white object-cover;
+}
+
+.ph[data-size="thumbnail"] {
+  @apply h-10;
+}
+
+.ph[data-size="small"] {
+  @apply h-24; 
+}
+
+.ph[data-size="large"] {
+  @apply h-48; 
+}

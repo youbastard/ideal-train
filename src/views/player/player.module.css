@@ -1,0 +1,10 @@
+.player {
+  @apply my-4;
+}
+
+.playerHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

@@ -1,0 +1,57 @@
+.st {
+  width: 100%;
+}
+
+.stTable {
+  @apply shadow-md;
+  @apply rounded-md;
+  @apply my-4;
+  @apply table-auto;
+  @apply slashed-zero;
+  @apply tabular-nums;
+  width: 100%;
+  overflow: hidden;
+}
+
+.stHead {
+  @apply bg-gray-100;
+}
+
+.stBody {
+  @apply border-t;
+}
+
+.stRow {
+  text-align: right;
+}
+
+.stTh {
+  @apply text-xs;
+  @apply font-medium;
+  @apply px-3;
+  @apply py-3;
+  color: #222222;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.stTd {
+  @apply text-sm;
+  @apply px-3;
+  @apply py-3;
+  @apply border-b;
+  text-align: right;
+}
+
+.stTd[data-text="true"],
+.stTh[data-text="true"] {
+  text-align: left;
+}
+
+.stTable colgroup {
+  @apply rounded;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  @apply border-gray-200;
+}

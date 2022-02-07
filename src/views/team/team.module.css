@@ -1,0 +1,50 @@
+.team {
+  @apply my-4;
+  position: relative;
+}
+
+.teamHeader {
+  @apply my-4;
+  display: flex;
+  align-items: center;
+}
+
+.teamLogo {
+  @apply mr-4;
+}
+
+.teamName {
+  @apply text-3xl;
+  @apply font-bold;
+}
+
+.teamPosition {
+  @apply my-4;
+  @apply text-lg;
+  @apply font-bold;
+}
+
+.teamRoster {
+
+}
+
+.teamList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+.teamPlayer {
+  @apply ml-4;
+}
+
+
+.teamPlayerName {
+
+}
+
+.teamJersey {
+  @apply text-sm;
+  color: #aaa;
+}

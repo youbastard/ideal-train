@@ -1,0 +1,19 @@
+.ph {
+  @apply inline-block object-contain;
+}
+
+.ph[data-size="thumbnail"] {
+  @apply h-10;
+}
+
+.ph[data-size="small"] {
+  @apply h-16; 
+}
+
+.ph[data-size="medium"] {
+  @apply h-24; 
+}
+
+.ph[data-size="large"] {
+  @apply h-48; 
+}

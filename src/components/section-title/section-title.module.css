@@ -1,0 +1,9 @@
+.sectionTitle {
+  @apply my-4;
+  @apply border-b;
+  @apply font-bold;
+  @apply text-lg;
+  @apply p-2;
+  text-transform: uppercase;
+  letter-spacing: 1px; 
+}

@@ -1,0 +1,50 @@
+.tl {
+  position: relative;
+}
+
+.tlLeague {
+  @apply my-4;
+  position: relative;
+}
+
+.tlHeader {
+  @apply text-3xl;
+  @apply font-bold;
+  @apply leading-loose;
+  @apply border-b;
+}
+
+.tlList {
+  @apply py-2;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: 1fr;
+  gap: .5rem;
+}
+
+.tlItem {
+  @apply h-full;
+}
+
+.tlLink {
+  @apply h-full;
+  @apply p-2;
+  @apply rounded;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tlLink:hover {
+  background-color: #eee;
+}
+
+.tlLogo {
+  @apply w-6;
+  @apply mr-4;
+}
+
+.tlTeam {
+  @apply flex-1;
+}

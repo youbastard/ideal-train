@@ -1,0 +1,63 @@
+.pls {
+  display: flex;
+  position: relative;
+  @apply w-full;
+}
+
+.plsInput {
+  @apply w-full;
+  @apply border;
+  @apply rounded;
+  @apply py-1;
+  @apply px-2;
+}
+
+.plsResults {
+  @apply border;
+  @apply rounded;
+  @apply shadow-sm;
+  @apply py-1;
+  @apply px-2;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 2.25rem;
+  max-width: 30rem;
+  max-height: 20rem;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.plsLink {
+  @apply rounded;
+  @apply text-xs;
+  @apply p-2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.plsLink:hover {
+  background-color: #eee;
+}
+
+.plsName {
+  /* @apply flex-grow; */
+  @apply mr-2;
+  @apply font-bold;
+  @apply text-sm;
+}
+
+.plsPos {
+  @apply mr-2;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.plsTeam {
+  letter-spacing: 1px;
+}
+
+.plsNum {
+
+}
